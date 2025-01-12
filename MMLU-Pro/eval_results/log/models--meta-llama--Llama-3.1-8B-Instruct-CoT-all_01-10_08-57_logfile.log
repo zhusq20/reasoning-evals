@@ -1,0 +1,126 @@
+2025-01-10 08:59:10,239 DEBUG Starting new HTTPS connection (1): huggingface.co:443
+2025-01-10 08:59:10,396 DEBUG https://huggingface.co:443 "HEAD /datasets/TIGER-Lab/MMLU-Pro/resolve/main/README.md HTTP/11" 200 0
+2025-01-10 08:59:10,397 DEBUG Attempting to acquire lock 127468421269344 on /root/.cache/huggingface/hub/.locks/datasets--TIGER-Lab--MMLU-Pro/ea53af00a9082ab40adefaff5878f23529616464.lock
+2025-01-10 08:59:10,398 DEBUG Lock 127468421269344 acquired on /root/.cache/huggingface/hub/.locks/datasets--TIGER-Lab--MMLU-Pro/ea53af00a9082ab40adefaff5878f23529616464.lock
+2025-01-10 08:59:10,476 DEBUG https://huggingface.co:443 "GET /datasets/TIGER-Lab/MMLU-Pro/resolve/main/README.md HTTP/11" 200 10864
+2025-01-10 08:59:10,480 DEBUG Attempting to release lock 127468421269344 on /root/.cache/huggingface/hub/.locks/datasets--TIGER-Lab--MMLU-Pro/ea53af00a9082ab40adefaff5878f23529616464.lock
+2025-01-10 08:59:10,480 DEBUG Lock 127468421269344 released on /root/.cache/huggingface/hub/.locks/datasets--TIGER-Lab--MMLU-Pro/ea53af00a9082ab40adefaff5878f23529616464.lock
+2025-01-10 08:59:10,560 DEBUG https://huggingface.co:443 "HEAD /datasets/TIGER-Lab/MMLU-Pro/resolve/014c8cf520218fc7f1ecec95c691a83ae5b8ba14/MMLU-Pro.py HTTP/11" 404 0
+2025-01-10 08:59:10,564 DEBUG Starting new HTTPS connection (1): s3.amazonaws.com:443
+2025-01-10 08:59:10,716 DEBUG https://s3.amazonaws.com:443 "HEAD /datasets.huggingface.co/datasets/datasets/TIGER-Lab/MMLU-Pro/TIGER-Lab/MMLU-Pro.py HTTP/11" 404 0
+2025-01-10 08:59:10,805 DEBUG https://huggingface.co:443 "GET /api/datasets/TIGER-Lab/MMLU-Pro/revision/014c8cf520218fc7f1ecec95c691a83ae5b8ba14 HTTP/11" 200 2004
+2025-01-10 08:59:10,885 DEBUG https://huggingface.co:443 "HEAD /datasets/TIGER-Lab/MMLU-Pro/resolve/014c8cf520218fc7f1ecec95c691a83ae5b8ba14/.huggingface.yaml HTTP/11" 404 0
+2025-01-10 08:59:10,889 DEBUG Starting new HTTPS connection (1): datasets-server.huggingface.co:443
+2025-01-10 08:59:11,122 DEBUG https://datasets-server.huggingface.co:443 "GET /info?dataset=TIGER-Lab/MMLU-Pro HTTP/11" 200 None
+2025-01-10 08:59:11,265 DEBUG https://huggingface.co:443 "GET /api/datasets/TIGER-Lab/MMLU-Pro/revision/014c8cf520218fc7f1ecec95c691a83ae5b8ba14 HTTP/11" 200 2004
+2025-01-10 08:59:11,422 DEBUG https://huggingface.co:443 "GET /api/datasets/TIGER-Lab/MMLU-Pro/tree/014c8cf520218fc7f1ecec95c691a83ae5b8ba14?recursive=False&expand=False HTTP/11" 200 492
+2025-01-10 08:59:11,534 DEBUG https://huggingface.co:443 "POST /api/datasets/TIGER-Lab/MMLU-Pro/paths-info/014c8cf520218fc7f1ecec95c691a83ae5b8ba14 HTTP/11" 200 218
+2025-01-10 08:59:11,612 DEBUG https://huggingface.co:443 "GET /api/datasets/TIGER-Lab/MMLU-Pro/tree/014c8cf520218fc7f1ecec95c691a83ae5b8ba14/data?recursive=False&expand=False HTTP/11" 200 475
+2025-01-10 08:59:11,618 DEBUG Starting new HTTPS connection (1): huggingface.co:443
+2025-01-10 08:59:11,721 DEBUG Starting new HTTPS connection (1): stats.vllm.ai:443
+2025-01-10 08:59:11,776 DEBUG https://huggingface.co:443 "GET /api/datasets/TIGER-Lab/MMLU-Pro/revision/014c8cf520218fc7f1ecec95c691a83ae5b8ba14 HTTP/11" 200 2004
+2025-01-10 08:59:11,797 DEBUG https://stats.vllm.ai:443 "POST / HTTP/11" 200 None
+2025-01-10 08:59:11,871 DEBUG https://huggingface.co:443 "POST /api/datasets/TIGER-Lab/MMLU-Pro/paths-info/014c8cf520218fc7f1ecec95c691a83ae5b8ba14 HTTP/11" 200 218
+2025-01-10 08:59:12,077 DEBUG https://huggingface.co:443 "HEAD /datasets/TIGER-Lab/MMLU-Pro/resolve/014c8cf520218fc7f1ecec95c691a83ae5b8ba14/dataset_infos.json HTTP/11" 404 0
+2025-01-10 08:59:12,161 DEBUG https://huggingface.co:443 "POST /api/datasets/TIGER-Lab/MMLU-Pro/paths-info/014c8cf520218fc7f1ecec95c691a83ae5b8ba14 HTTP/11" 200 218
+2025-01-10 08:59:12,282 DEBUG https://huggingface.co:443 "POST /api/datasets/TIGER-Lab/MMLU-Pro/paths-info/014c8cf520218fc7f1ecec95c691a83ae5b8ba14 HTTP/11" 200 218
+2025-01-10 08:59:12,288 DEBUG Attempting to acquire lock 127468421272128 on /root/.cache/huggingface/datasets/_root_.cache_huggingface_datasets_TIGER-Lab___mmlu-pro_default_0.0.0_014c8cf520218fc7f1ecec95c691a83ae5b8ba14.lock
+2025-01-10 08:59:12,289 DEBUG Lock 127468421272128 acquired on /root/.cache/huggingface/datasets/_root_.cache_huggingface_datasets_TIGER-Lab___mmlu-pro_default_0.0.0_014c8cf520218fc7f1ecec95c691a83ae5b8ba14.lock
+2025-01-10 08:59:12,289 DEBUG Attempting to release lock 127468421272128 on /root/.cache/huggingface/datasets/_root_.cache_huggingface_datasets_TIGER-Lab___mmlu-pro_default_0.0.0_014c8cf520218fc7f1ecec95c691a83ae5b8ba14.lock
+2025-01-10 08:59:12,290 DEBUG Lock 127468421272128 released on /root/.cache/huggingface/datasets/_root_.cache_huggingface_datasets_TIGER-Lab___mmlu-pro_default_0.0.0_014c8cf520218fc7f1ecec95c691a83ae5b8ba14.lock
+2025-01-10 08:59:13,606 DEBUG Attempting to acquire lock 127468421275248 on /root/.cache/huggingface/datasets/TIGER-Lab___mmlu-pro/default/0.0.0/014c8cf520218fc7f1ecec95c691a83ae5b8ba14_builder.lock
+2025-01-10 08:59:13,608 DEBUG Lock 127468421275248 acquired on /root/.cache/huggingface/datasets/TIGER-Lab___mmlu-pro/default/0.0.0/014c8cf520218fc7f1ecec95c691a83ae5b8ba14_builder.lock
+2025-01-10 08:59:13,691 DEBUG https://huggingface.co:443 "HEAD /datasets/TIGER-Lab/MMLU-Pro/resolve/014c8cf520218fc7f1ecec95c691a83ae5b8ba14/data/test-00000-of-00001.parquet HTTP/11" 302 0
+2025-01-10 08:59:13,694 DEBUG Attempting to acquire lock 127468320341632 on /root/.cache/huggingface/hub/.locks/datasets--TIGER-Lab--MMLU-Pro/b8c790c6cc613a4b71a413230db54bcf2e2053d876ffc4c4451c94908af9e1f5.lock
+2025-01-10 08:59:13,695 DEBUG Lock 127468320341632 acquired on /root/.cache/huggingface/hub/.locks/datasets--TIGER-Lab--MMLU-Pro/b8c790c6cc613a4b71a413230db54bcf2e2053d876ffc4c4451c94908af9e1f5.lock
+2025-01-10 08:59:13,701 DEBUG Starting new HTTPS connection (1): cdn-lfs-us-1.hf.co:443
+2025-01-10 08:59:13,902 DEBUG https://cdn-lfs-us-1.hf.co:443 "GET /repos/66/ef/66ef124c82fcfc583862e229d08f3ec7e91b6cb19d4ea4e680540110a55df42a/b8c790c6cc613a4b71a413230db54bcf2e2053d876ffc4c4451c94908af9e1f5?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27test-00000-of-00001.parquet%3B+filename%3D%22test-00000-of-00001.parquet%22%3B&Expires=1736758753&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTczNjc1ODc1M319LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy11cy0xLmhmLmNvL3JlcG9zLzY2L2VmLzY2ZWYxMjRjODJmY2ZjNTgzODYyZTIyOWQwOGYzZWM3ZTkxYjZjYjE5ZDRlYTRlNjgwNTQwMTEwYTU1ZGY0MmEvYjhjNzkwYzZjYzYxM2E0YjcxYTQxMzIzMGRiNTRiY2YyZTIwNTNkODc2ZmZjNGM0NDUxYzk0OTA4YWY5ZTFmNT9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPSoifV19&Signature=hCgDsbXWV8cU25i7YnPHrSi78uuSMpl9U41q09-xlhhc52jWsKTtMpAwDr6T7raLd6WqOdIAOugbwgqjnFSl6pQ7um3CrKjOwmbMx1Kgr80UOVkrIC~0e93nWbod8o2yg4jfaycDTe4gxFmOpqY1OOvm~PyONaGtPBFxxyGSdDka7~08pHE3a4oUa1WuQtGABB2i834TD7qimzcX1dGc~TRgZPwxZHgCGJ5kSKiWAZzDf5WOaCALjCw4gb0E9sTlnlAUIc7PY5svYmwlB0M9J-rS4Sts1nHYc5k0txLJlmjqI7k8OogPwEXWmH1afouTpxQ3KAZPp6An5APKZq7lbA__&Key-Pair-Id=K24J24Z295AEI9 HTTP/11" 200 4150253
+2025-01-10 08:59:14,153 DEBUG Attempting to release lock 127468320341632 on /root/.cache/huggingface/hub/.locks/datasets--TIGER-Lab--MMLU-Pro/b8c790c6cc613a4b71a413230db54bcf2e2053d876ffc4c4451c94908af9e1f5.lock
+2025-01-10 08:59:14,154 DEBUG Lock 127468320341632 released on /root/.cache/huggingface/hub/.locks/datasets--TIGER-Lab--MMLU-Pro/b8c790c6cc613a4b71a413230db54bcf2e2053d876ffc4c4451c94908af9e1f5.lock
+2025-01-10 08:59:14,233 DEBUG https://huggingface.co:443 "HEAD /datasets/TIGER-Lab/MMLU-Pro/resolve/014c8cf520218fc7f1ecec95c691a83ae5b8ba14/data/validation-00000-of-00001.parquet HTTP/11" 302 0
+2025-01-10 08:59:14,236 DEBUG Attempting to acquire lock 127468320341968 on /root/.cache/huggingface/hub/.locks/datasets--TIGER-Lab--MMLU-Pro/a6db33e44c7a8d6a0a9665aabe6596a5e7436bebb62412d1219821283835e457.lock
+2025-01-10 08:59:14,237 DEBUG Lock 127468320341968 acquired on /root/.cache/huggingface/hub/.locks/datasets--TIGER-Lab--MMLU-Pro/a6db33e44c7a8d6a0a9665aabe6596a5e7436bebb62412d1219821283835e457.lock
+2025-01-10 08:59:14,314 DEBUG https://cdn-lfs-us-1.hf.co:443 "GET /repos/66/ef/66ef124c82fcfc583862e229d08f3ec7e91b6cb19d4ea4e680540110a55df42a/a6db33e44c7a8d6a0a9665aabe6596a5e7436bebb62412d1219821283835e457?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27validation-00000-of-00001.parquet%3B+filename%3D%22validation-00000-of-00001.parquet%22%3B&Expires=1736758754&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTczNjc1ODc1NH19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy11cy0xLmhmLmNvL3JlcG9zLzY2L2VmLzY2ZWYxMjRjODJmY2ZjNTgzODYyZTIyOWQwOGYzZWM3ZTkxYjZjYjE5ZDRlYTRlNjgwNTQwMTEwYTU1ZGY0MmEvYTZkYjMzZTQ0YzdhOGQ2YTBhOTY2NWFhYmU2NTk2YTVlNzQzNmJlYmI2MjQxMmQxMjE5ODIxMjgzODM1ZTQ1Nz9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPSoifV19&Signature=a5KhkOgF5gQ896uo-AgDBQDTwzn3oz0x9hrB1xkxVsBxRZ1vEcWMXFga6mkbH1ZbVV96d5EpEsGtN-L~~WxWVBrwKH0CKNespha~7Cwstn6O98CTKWB8UjzT5veAozUaJzLe2CdyfqX7ISccRlb74sFldkcZp60TXA66vXLN7~J0GJ6B13Lnx9Hrt~wCaqDggbLjq1PLjo8zXQmSmGb8TK1t066RoLVK0UiG8PwKYd~n5y9toiljC6YgGyqFACXcS-29E-g-vaaB9sl-CCos~5Q5x-DBBiSBrHx2s~YQoZ0BNkgMuP8Y-FmmDRA1NFUbp2UufY8RaSxsiMU-70WJ3A__&Key-Pair-Id=K24J24Z295AEI9 HTTP/11" 200 45312
+2025-01-10 08:59:14,318 DEBUG Attempting to release lock 127468320341968 on /root/.cache/huggingface/hub/.locks/datasets--TIGER-Lab--MMLU-Pro/a6db33e44c7a8d6a0a9665aabe6596a5e7436bebb62412d1219821283835e457.lock
+2025-01-10 08:59:14,319 DEBUG Lock 127468320341968 released on /root/.cache/huggingface/hub/.locks/datasets--TIGER-Lab--MMLU-Pro/a6db33e44c7a8d6a0a9665aabe6596a5e7436bebb62412d1219821283835e457.lock
+2025-01-10 08:59:14,325 DEBUG open file: /root/.cache/huggingface/datasets/TIGER-Lab___mmlu-pro/default/0.0.0/014c8cf520218fc7f1ecec95c691a83ae5b8ba14.incomplete/mmlu-pro-test-00000-00000-of-NNNNN.arrow
+2025-01-10 08:59:14,467 DEBUG open file: /root/.cache/huggingface/datasets/TIGER-Lab___mmlu-pro/default/0.0.0/014c8cf520218fc7f1ecec95c691a83ae5b8ba14.incomplete/mmlu-pro-validation-00000-00000-of-NNNNN.arrow
+2025-01-10 08:59:14,474 DEBUG Attempting to acquire lock 127468421276064 on /root/.cache/huggingface/datasets/TIGER-Lab___mmlu-pro/default/0.0.0/014c8cf520218fc7f1ecec95c691a83ae5b8ba14.incomplete_info.lock
+2025-01-10 08:59:14,475 DEBUG Lock 127468421276064 acquired on /root/.cache/huggingface/datasets/TIGER-Lab___mmlu-pro/default/0.0.0/014c8cf520218fc7f1ecec95c691a83ae5b8ba14.incomplete_info.lock
+2025-01-10 08:59:14,476 DEBUG open file: /root/.cache/huggingface/datasets/TIGER-Lab___mmlu-pro/default/0.0.0/014c8cf520218fc7f1ecec95c691a83ae5b8ba14.incomplete/dataset_info.json
+2025-01-10 08:59:14,477 DEBUG Attempting to release lock 127468421276064 on /root/.cache/huggingface/datasets/TIGER-Lab___mmlu-pro/default/0.0.0/014c8cf520218fc7f1ecec95c691a83ae5b8ba14.incomplete_info.lock
+2025-01-10 08:59:14,477 DEBUG Lock 127468421276064 released on /root/.cache/huggingface/datasets/TIGER-Lab___mmlu-pro/default/0.0.0/014c8cf520218fc7f1ecec95c691a83ae5b8ba14.incomplete_info.lock
+2025-01-10 08:59:14,478 DEBUG Attempting to release lock 127468421275248 on /root/.cache/huggingface/datasets/TIGER-Lab___mmlu-pro/default/0.0.0/014c8cf520218fc7f1ecec95c691a83ae5b8ba14_builder.lock
+2025-01-10 08:59:14,478 DEBUG Lock 127468421275248 released on /root/.cache/huggingface/datasets/TIGER-Lab___mmlu-pro/default/0.0.0/014c8cf520218fc7f1ecec95c691a83ae5b8ba14_builder.lock
+2025-01-10 08:59:15,485 INFO selected subjects:
+business
+law
+psychology
+biology
+chemistry
+history
+other
+health
+economics
+math
+physics
+computer science
+philosophy
+engineering
+2025-01-10 08:59:15,495 INFO evaluating biology
+2025-01-10 09:01:54,136 INFO 717size batch costing time: 154.13933873176575
+2025-01-10 09:02:18,517 INFO this batch accu is: 0.6359832635983264, corr: 456.0, wrong: 261.0
+
+2025-01-10 09:02:18,554 INFO evaluating business
+2025-01-10 09:04:39,952 INFO 789size batch costing time: 137.09526944160461
+2025-01-10 09:04:56,765 INFO this batch accu is: 0.4879594423320659, corr: 385.0, wrong: 404.0
+
+2025-01-10 09:04:56,821 INFO evaluating chemistry
+2025-01-10 09:09:11,902 DEBUG Resetting dropped connection: stats.vllm.ai
+2025-01-10 09:09:12,009 DEBUG https://stats.vllm.ai:443 "POST / HTTP/11" 200 None
+2025-01-10 09:11:52,649 INFO 1132size batch costing time: 408.672331571579
+2025-01-10 09:12:36,826 INFO this batch accu is: 0.36484098939929327, corr: 413.0, wrong: 719.0
+
+2025-01-10 09:12:36,877 INFO evaluating computer science
+2025-01-10 09:14:38,263 INFO 410size batch costing time: 118.75182819366455
+2025-01-10 09:14:50,014 INFO this batch accu is: 0.4878048780487805, corr: 200.0, wrong: 210.0
+
+2025-01-10 09:14:50,046 INFO evaluating economics
+2025-01-10 09:17:20,967 INFO 844size batch costing time: 145.60634326934814
+2025-01-10 09:17:30,477 INFO this batch accu is: 0.5592417061611374, corr: 472.0, wrong: 372.0
+
+2025-01-10 09:17:30,543 INFO evaluating engineering
+2025-01-10 09:19:12,122 DEBUG Resetting dropped connection: stats.vllm.ai
+2025-01-10 09:19:12,202 DEBUG https://stats.vllm.ai:443 "POST / HTTP/11" 200 None
+2025-01-10 09:22:00,818 INFO 969size batch costing time: 263.9001717567444
+2025-01-10 09:22:36,375 INFO this batch accu is: 0.31785345717234265, corr: 308.0, wrong: 661.0
+
+2025-01-10 09:22:36,419 INFO evaluating health
+2025-01-10 09:25:09,575 INFO 818size batch costing time: 147.19364500045776
+2025-01-10 09:25:41,110 INFO this batch accu is: 0.49755501222493886, corr: 407.0, wrong: 411.0
+
+2025-01-10 09:25:41,150 INFO evaluating history
+2025-01-10 09:27:18,879 INFO 381size batch costing time: 91.46557307243347
+2025-01-10 09:27:21,596 INFO this batch accu is: 0.4199475065616798, corr: 160.0, wrong: 221.0
+
+2025-01-10 09:27:21,641 INFO evaluating law
+2025-01-10 09:29:12,309 DEBUG Resetting dropped connection: stats.vllm.ai
+2025-01-10 09:29:12,392 DEBUG https://stats.vllm.ai:443 "POST / HTTP/11" 200 None
+2025-01-10 09:30:38,464 INFO 1101size batch costing time: 188.84521508216858
+2025-01-10 09:31:37,667 INFO this batch accu is: 0.27338782924613986, corr: 301.0, wrong: 800.0
+
+2025-01-10 09:31:37,743 INFO evaluating math
+2025-01-10 09:39:12,497 DEBUG Resetting dropped connection: stats.vllm.ai
+2025-01-10 09:39:12,640 DEBUG https://stats.vllm.ai:443 "POST / HTTP/11" 200 None
+2025-01-10 09:40:08,693 INFO 1351size batch costing time: 501.41920733451843
+2025-01-10 09:40:38,031 INFO this batch accu is: 0.4478164322723908, corr: 605.0, wrong: 746.0
+
+2025-01-10 09:40:38,080 INFO evaluating other
+2025-01-10 09:42:32,603 INFO 924size batch costing time: 108.66495156288147
+2025-01-10 09:42:39,307 INFO this batch accu is: 0.4512987012987013, corr: 417.0, wrong: 507.0
+
+2025-01-10 09:42:39,372 INFO evaluating philosophy
+2025-01-10 09:44:01,508 INFO 499size batch costing time: 79.11927223205566
+2025-01-10 09:44:06,564 INFO this batch accu is: 0.4308617234468938, corr: 215.0, wrong: 284.0
+
+2025-01-10 09:44:06,595 INFO evaluating physics

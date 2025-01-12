@@ -1,0 +1,6 @@
+
+------category level sta------
+Average accuracy 0.4026 - physics
+
+------average acc sta------
+Average accuracy: 0.4026
