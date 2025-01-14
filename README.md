@@ -80,17 +80,17 @@ sh eval_gpt_4.sh
 
 follow the instructions in ./benchmarks/LiveCodeBench/README.md
 
-You don’t need to follow the README instructions to run this (it’s troublesome and will cause errors). 
+run this command once and ignore the errors.
 ```bash
 pip install poetry
 poetry install
 ```
 
-You can directly run the evaluation code and then add the missing libraries as needed.
+Then directly run evaluation.
 
 ## ARC-AGI
 
-in progress
+run the jupyter notebook ./arc_agi/few-shot-prompting-for-arc24.ipynb
 
 ## SWE-bench Verified
 
