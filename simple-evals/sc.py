@@ -687,14 +687,15 @@ from utils import load_jsonl
 
 
 def n_sampling_interface(
-    n_test_cases: int,
+    # n_test_cases: int,
+    questions: list,
     chunk_size: int,
     max_n_samples: int,
     voting: str = 'maj',
     outfile: str = 'gsm.json',
     stat_output_path: str = 'gsm.log',
     mode: str = 'runout',
-
+    
     policy_incremental_size: int = -1,
     policy_parallel_size: int = -1,
     smart_policy: str = 'even',
@@ -707,7 +708,7 @@ def n_sampling_interface(
     random.shuffle(data)
 
     arguments = [
-        dict(prompt=data[i]['question']) for i in range(n_test_cases)
+        dict(prompt=questions[i]) for i in range(len(questions))
     ]
     resource_manager = ResourceManager(n_threads=len(arguments), smart_policy=smart_policy, max_total_branches=max_total_branches, policy_incremental_size=policy_incremental_size,
                                       policy_parallel_size=policy_parallel_size, max_n_samples=max_n_samples, mode=mode)
