@@ -6,6 +6,7 @@ import openai
 from openai import OpenAI
 
 from ..types import MessageList, SamplerBase
+from ..sc import sc_interface
 
 OPENAI_SYSTEM_MESSAGE_API = "You are a helpful assistant."
 OPENAI_SYSTEM_MESSAGE_CHATGPT = (
@@ -62,6 +63,7 @@ class ChatCompletionSampler(SamplerBase):
         trial = 0
         while True:
             try:
+                '''输入SC输出SC?'''
                 response = self.client.chat.completions.create(
                     model=self.model,
                     messages=message_list,
